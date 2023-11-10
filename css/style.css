@@ -10,9 +10,17 @@ header{
 }
 
 .content{
-
+    height: 200px;
 }
 
 .bg-white{
     background-color: white;
+}
+
+.bg-lightgreen{
+    background-color: lightgreen;
+}
+
+.border-black{
+    border: 1px solid black;
 }
