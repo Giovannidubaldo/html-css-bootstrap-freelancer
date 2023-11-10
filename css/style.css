@@ -3,3 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 75px;
+    background-color: rgb(34, 42, 60);
+}
+
+.content{
+
+}
+
+.bg-white{
+    background-color: white;
+}
