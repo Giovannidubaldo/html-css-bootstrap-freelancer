@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-header{
+header,
+footer{
     height: 75px;
     background-color: rgb(34, 42, 60);
 }
@@ -43,4 +44,8 @@ header{
 
 .bg-bisque{
     background-color: rgb(179, 158, 132);
+}
+
+.bg-data{
+    background-color: rgb(51, 64, 93);
 }
