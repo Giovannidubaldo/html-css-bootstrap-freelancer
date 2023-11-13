@@ -36,3 +36,14 @@ ul{
 .bg-data{
     background-color: rgb(51, 64, 93);
 }
+
+.my-input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 15px 0;
+}
+
+.message-input{
+    padding-bottom: 70px;
+}
