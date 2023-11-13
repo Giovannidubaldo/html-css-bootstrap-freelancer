@@ -12,8 +12,13 @@ footer{
     align-items: center;
 }
 
-.ul-header{
+ul{
     list-style: none;
+}
+
+.image{
+    height: 150px;
+    width: 150px;
 }
 
 .title-content{
@@ -24,36 +29,8 @@ footer{
     height: 200px;
 }
 
-.bg-white{
-    background-color: white;
-}
-
 .bg-lightgreen{
     background-color: rgb(58, 160, 122);
-}
-
-.border-black{
-    border: 1px solid black;
-}
-
-.bg-red{
-    background-color: rgb(190, 77, 77);
-}
-
-.bg-skyblue{
-    background-color: rgb(71, 155, 188);
-}
-
-.bg-lightblue{
-    background-color: rgb(19, 114, 146);
-}
-
-.bg-blue{
-    background-color: blue;
-}
-
-.bg-bisque{
-    background-color: rgb(179, 158, 132);
 }
 
 .bg-data{
