@@ -8,6 +8,13 @@ header,
 footer{
     height: 75px;
     background-color: rgb(34, 42, 60);
+    display: flex;
+    align-items: center;
+}
+
+
+.title-content{
+    height: 100px;
 }
 
 .content{
