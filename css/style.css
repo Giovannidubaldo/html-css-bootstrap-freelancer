@@ -12,6 +12,9 @@ footer{
     align-items: center;
 }
 
+.ul-header{
+    list-style: none;
+}
 
 .title-content{
     height: 100px;
