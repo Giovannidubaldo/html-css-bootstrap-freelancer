@@ -12,21 +12,8 @@ footer{
     align-items: center;
 }
 
-ul{
-    list-style: none;
-}
-
-.image{
-    height: 150px;
-    width: 150px;
-}
-
-.title-content{
-    height: 100px;
-}
-
-.content{
-    height: 200px;
+.jumbo-image{
+    width: 200px;
 }
 
 .bg-lightgreen{
@@ -45,7 +32,7 @@ ul{
 }
 
 .message-input{
-    padding-bottom: 70px;
+    padding-bottom: 100px;
 }
 
 .circle-icons{
@@ -55,4 +42,26 @@ ul{
     background-color: transparent;
     border: 1px solid white;
     color: white;
+}
+
+.star-container::before, .star-container::after{
+    content: "";
+    width: 25%;
+    height: 4px;
+    background-color: white;
+    display: inline-block;
+    line-height: 4px;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.black-star-container::before, .black-star-container::after{
+    content: "";
+    width: 25%;
+    height: 4px;
+    background-color: rgb(25, 25, 25);
+    display: inline-block;
+    line-height: 4px;
+    border-radius: 2px;
+    vertical-align: middle;
 }
